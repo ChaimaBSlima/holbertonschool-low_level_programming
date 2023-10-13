@@ -3,7 +3,7 @@
  *main is the entry point
  *Return: Successfully 0
  */
-int main()//This the main function
+int main(void)//This the main function
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
