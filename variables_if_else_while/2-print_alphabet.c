@@ -7,9 +7,11 @@
 int main(void)
 {
     int i;
+    char j;
     for (i=97;i<123;i++)
     { 
-       putchar("%c",i);
+       j = i;
+       putchar(j);
     }
     return (0);
 }
