@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
  * lastdight -Give the last dight of a number
- * Return: 0
- */
+ * Description: Give the last dight of a number
+ * @n: The number
+ * Return: last dight
+ *
+*/
 int lastdight(int n)
 {
 	while (n > 10)
@@ -14,7 +16,10 @@ int lastdight(int n)
 	}
 	return (n);
 }
-
+/**
+* main - Entry point
+* Return: 0
+*/
 int main(void)
 {
 	int n;
