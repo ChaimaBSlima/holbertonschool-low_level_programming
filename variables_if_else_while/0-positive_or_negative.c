@@ -1,15 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* 
+/*
 * main - Entry point
 *
-*Return: 0
+* Return: 0
 */
 int main(void)
 {
 	int n;
-
+    /*
+	A random value stored on the variable n
+	*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
