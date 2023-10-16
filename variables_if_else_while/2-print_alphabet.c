@@ -9,6 +9,7 @@ int main(void)
     int i;
     for (i=97;i<123;i++)
     { 
-       putchar("%c",i)
+       putchar("%c",i);
     }
+    return (0);
 }
