@@ -10,7 +10,7 @@ int main(void)
 {
 	int n;
     /*
-	A random value stored on the variable n
+	* A random value stored on the variable n
 	*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
