@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sys/syscall.h>
+#include <main.h>
 /**
  * main - Entry point
  *
@@ -7,8 +7,5 @@
  */
 int main(void)
 {
-	const char msg[] = "_putchar\n";
-
-	syscall(SYS_write, 1, msg, sizeof(msg));
-	return (0);
+	 chaima("_putchar\n");
 }
