@@ -6,7 +6,7 @@
 *
 * Return: 0
 */
-int lastdight(n){
+int lastdight(int n){
     while (n>10){
         n=n%10;
     }
