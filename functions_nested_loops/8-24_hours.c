@@ -11,31 +11,31 @@ void jack_bauer(void)
 	int j;
 	for (i = 0; i < 23; i++)
 	{
-		if (i < 10)
+		for (j = 0; j < 60; j++)
 		{
-			printf("0");
-			printf("%d", i);
-			printf(":");
-		}
-		else
-		{
-			printf("%d", i);
-			printf(":");
-		}
-	}
-	for (j = 0; j < 60; j++)
-	{
-		if (j < 10)
-		{
-			printf("0");
-			printf("%d", j);
-			;
-			printf("\n");
-		}
-		else
-		{
-			printf("%d", j);
-			printf("\n");
+			if (i < 10)
+			{
+				printf("0");
+				printf("%d", i);
+				printf(":");
+			}
+			else
+			{
+				printf("%d", i);
+				printf(":");
+			}
+			if (j < 10)
+			{
+				printf("0");
+				printf("%d", j);
+				;
+				printf("\n");
+			}
+			else
+			{
+				printf("%d", j);
+				printf("\n");
+			}
 		}
 	}
 }
