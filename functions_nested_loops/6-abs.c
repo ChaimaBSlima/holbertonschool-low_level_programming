@@ -9,7 +9,7 @@
  */
 int _abs(int c)
 {
-	if (n = > 0)
+	if (n => 0)
 	{
 		return (n);
 	}
