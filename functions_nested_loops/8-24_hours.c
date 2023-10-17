@@ -20,7 +20,7 @@ void jack_bauer(void)
 		else
 		{
 			_putchar(i + '0');
-			_putchar(":");
+			_putchar(':');
 		}
 		for (i = 0; i < 60; i++)
 		{
@@ -28,12 +28,12 @@ void jack_bauer(void)
 			{
 				_putchar('0');
 				_putchar(i + '0');
-				_putchar("\n");
+				_putchar('\n');
 			}
 			else
 			{
 				_putchar(i + '0');
-				_putchar("\n");
+				_putchar('\n');
 			}
 		}
 	}
