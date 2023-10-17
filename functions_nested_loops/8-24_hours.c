@@ -16,6 +16,7 @@ void jack_bauer(void)
 		{
 			printf("0");
 			printf("%d",i);
+			printf(":");
 		}
 		else
 		{
