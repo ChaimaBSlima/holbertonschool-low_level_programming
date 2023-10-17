@@ -6,7 +6,7 @@ As a holberton school student I built this directory named functions_nested_loop
 
 | Files |  Description                |
 | :-------- |  :------------------------- |
-| `main.h` | it's a header file that contain the prototypes of all your functions and the prototype of the function _putchar |
+| `main.h` | it's a header file that contain the prototypes of all your functions and the prototype of the function _putchar.|
 |  `0-putchar.c` |contain a program that prints _putchar, followed by a new line. |
 | `1-alphabet.c` | contain a function that prints the alphabet, in lowercase, followed by a new line. |
 | `2-print_alphabet_x10.c` | contain a function that prints 10 times the alphabet, in lowercase, followed by a new line. |
