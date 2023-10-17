@@ -18,11 +18,11 @@ void times_table(void)
 			{
 				if (j != 9)
 				{
-					printf("%d  ,", i * j);
+					printf("%d,  ", i * j);
 				}
 				else
 				{
-					printf("  %d", i * j);
+					printf("%d", i * j);
 				}
 			}
 			else
@@ -30,11 +30,11 @@ void times_table(void)
 
 				if (j != 9)
 				{
-					printf("%d ,", i * j);
+					printf("%d, ", i * j);
 				}
 				else
 				{
-					printf(" %d", i * j);
+					printf("%d", i * j);
 				}
 			}
 		}
