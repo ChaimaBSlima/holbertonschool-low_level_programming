@@ -14,26 +14,26 @@ void jack_bauer(void);
 	{
 		if (i < 10)
 		{
-			_putchar('0')
-				_putchar(i + '0')
+			_putchar('0');
+			_putchar(i + '0');
 		}
 		else
 		{
-			_putchar(i + '0')
-				_putchar(":")
+			_putchar(i + '0');
+			_putchar(":");
 		}
 		for (i = 0; i < 60; i++)
 		{
 			if (i < 10)
 			{
-				_putchar('0')
-					_putchar(i + '0')
-						_putchar("\n")
+				_putchar('0');
+				_putchar(i + '0');
+				_putchar("\n");
 			}
 			else
 			{
-				_putchar(i + '0')
-					_putchar("\n")
+				_putchar(i + '0');
+				_putchar("\n");
 			}
 		}
 	}
