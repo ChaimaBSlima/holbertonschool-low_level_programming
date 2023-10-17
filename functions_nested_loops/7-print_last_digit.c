@@ -3,9 +3,16 @@
 /**
  * print_last_digit - prints the last digit of a number.
  * @c:The number
- * Return: int value
+ * Return: int value 
  */
 int print_last_digit(int c)
 {
-	return (c % 10);
+	if (c > 0)
+	{
+		return (c % 10);
+	}
+	else
+	{
+		return (-c % 10);
+	}
 }
