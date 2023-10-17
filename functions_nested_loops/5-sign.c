@@ -5,7 +5,7 @@
  * Returns 0 and prints 0 if n is zero
  * Returns -1 and prints - if n is less than zero
  * @n:The code ASCII of the charcter
- * Return: 0 or 1
+ * Return: 0 or 1 or -1
  */
 int print_sign(int n)
 {
