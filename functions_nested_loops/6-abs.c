@@ -5,7 +5,7 @@
  * Description:a function that computes
  * the absolute value of an integer.
  * @c:The number
- * Return: 0 or 1
+ * Return: int value
  */
 int _abs(int c)
 {
