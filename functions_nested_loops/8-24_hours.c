@@ -14,26 +14,26 @@ void jack_bauer(void)
 	{
 		if (i < 10)
 		{
-			printf('0');
-			printf('%d',i);
+			printf("0");
+			printf("%d",i);
 		}
 		else
 		{
-			printf('%d',i);
-			printf(':');
+			printf("%d",i);
+			printf(":");
 		}
 		for (j = 0; j < 60; j++)
 		{
 			if (j < 10)
 			{
-				printf('0');
-				printf('%d',i);;
-				printf('\n');
+				printf("0");
+				printf("%d",i);;
+				printf("\n");
 			}
 			else
 			{
-				printf('%d',i);;
-				printf('\n');
+				printf("%d",i);;
+				printf("\n");
 			}
 		}
 	}
