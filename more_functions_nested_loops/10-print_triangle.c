@@ -3,10 +3,10 @@
 /**
  * print_triangle - prints a triangle,
  * followed by a new line.
- * @size: The size of the triangle
+ * @n: The size of the triangle
  * Return: void
  */
-void print_triangle(int size)
+void print_triangle(int n)
 {
 	if (n > 0)
 	{
