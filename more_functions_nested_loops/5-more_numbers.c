@@ -23,7 +23,7 @@ void more_numbers(void)
 			{
 				i++;
 			}
-			if ((i == 9) || (j != 0))
+			if ((i > 9) || (j != 0))
 			{
 				i = 1;
 				_putchar(j + '0');
