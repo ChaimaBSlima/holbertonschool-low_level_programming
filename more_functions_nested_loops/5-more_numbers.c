@@ -9,24 +9,28 @@
 void more_numbers(void)
 {
 	int i;
-	char j;
+	int j;
+	int a;
 
 	i = 0;
 	j = 0;
-	while (j < 5)
+	for (i = 0; i < 11; i++)
 	{
-		_putchar(i + '0');
-		if (j == 0)
+		while (j < 5)
 		{
-			i++;
+			_putchar(i + '0');
+			if (j == 0)
+			{
+				i++;
+			}
+			if ((i == 9) || (j != 0))
+			{
+				i = 1;
+				_putchar(j + '0');
+				j++;
+			}
 		}
-		if ((i == 9) || (j != 0))
-		{
-			i = 1;
-			_putchar(j + '0');
-			j++;
-		}
-	}
 
-	_putchar('\n');
+		_putchar('\n');
+	}
 }
