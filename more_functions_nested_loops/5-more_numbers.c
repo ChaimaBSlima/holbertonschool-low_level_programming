@@ -14,7 +14,7 @@ void more_numbers(void)
 
 	for (a = 0; a < 11; a++)
 	{
-		i = 0;
+		i = -1;
 		j = 0;
 		while (j < 5)
 		{
@@ -29,6 +29,7 @@ void more_numbers(void)
 				_putchar(j + '0');
 				j++;
 			}
+			_putchar(i + '0');
 		}
 
 		_putchar('\n');
