@@ -6,7 +6,7 @@
  * @n: The number of #
  * Return: void
  */
-void print_diagonal(int n)
+void print_square(int n)
 {
 	if (n > 0)
 	{
