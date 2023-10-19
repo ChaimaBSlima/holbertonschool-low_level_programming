@@ -14,20 +14,22 @@ void more_numbers(void)
 
 	for (a = 0; a < 11; a++)
 	{
-		i = 1;
-		j = 0;
+		i = -1;
+		j = -1;
 		while (j < 5)
 		{
-			_putchar(i + '0');
-			if (j == 0)
+
+			if (j == -1)
 			{
 				i++;
 			}
 			if (i > 9)
 			{
 				i = 1;
+				j = 0;
 			}
-			if ((i == 1) && (j != 0))
+			_putchar(i + '0');
+			if ((i == 1) && (j != -1))
 			{
 				_putchar(j + '0');
 				j++;
