@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *print_numbers- Entry point
+ *print_numbers -rints the numbers,
+ *from 0 to 9, followed by a new line.
  *
  * Return: void
  */
