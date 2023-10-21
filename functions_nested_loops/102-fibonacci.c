@@ -14,13 +14,13 @@ int main(void)
 	i = 1;
 	j = 2;
 	s = 0;
-	k = 1;
+	k = 3;
 	printf("%d, ", i);
 	printf("%d, ", j);
-	while (k < 51)
+	while (k < 49)
 	{
 		s = i + j;
-		if (k != 50)
+		if (k != 48)
 		{
 			printf("%d, ", s);
 		}
