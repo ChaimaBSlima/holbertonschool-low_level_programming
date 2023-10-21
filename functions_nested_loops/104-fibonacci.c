@@ -29,7 +29,7 @@ int main(void)
 			if (k != 98)
 
 			{
-				printf("%lu%lu, ",n,m);
+				printf("%lu%010lu, ",n,m);
 			}
 			else
 			{
