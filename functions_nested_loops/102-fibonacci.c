@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int i;
-	int j;
-	int s;
+	unsigned int i;
+	unsigned int j;
+	unsigned int s;
 	int k;
 
 	i = 1;
@@ -22,11 +22,11 @@ int main(void)
 		s = i + j;
 		if (k != 50)
 		{
-			printf("%d, ", s);
+			printf("%u, ", s);
 		}
 		else
 		{
-			printf("%d", s);
+			printf("%u", s);
 		}
 		i = j;
 		j = s;
