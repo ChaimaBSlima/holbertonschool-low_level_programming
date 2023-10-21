@@ -22,13 +22,13 @@ int main(void)
 		s = i + j;
 		if (k != 50)
 		{
-			printf("%d, ", s);
+			printf("%llu, ", s);
 		}
 		else
 		{
-			printf("%d", s);
+			printf("%llu", s);
 		}
-        i = j;
+		i = j;
 		j = s;
 		k++;
 	}
