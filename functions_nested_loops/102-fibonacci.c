@@ -15,8 +15,8 @@ int main(void)
 	j = 2;
 	s = 0;
 	k = 3;
-	printf("%d, ", i);
-	printf("%d, ", j);
+	printf("%llu, ", i);
+	printf("%llu, ", j);
 	while (k < 51)
 	{
 		s = i + j;
