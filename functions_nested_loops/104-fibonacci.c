@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define large 100000000
+#define large 10000000000
 /**
  * main - Entry point
  *
@@ -29,7 +29,7 @@ int main(void)
 			if (k != 98)
 
 			{
-				printf("%lu%010lu, ",n,m);
+				printf("%lu%lu, ",n,m);
 			}
 			else
 			{
