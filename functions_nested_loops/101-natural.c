@@ -19,12 +19,7 @@ int main(void)
 			j = j + i;
 		}
 	}
-	printf("%d",j);
-	/*while (j > 0)
-	{
-		_putchar(j % 10 + '0');
-		j = j / 10;
-	}
-	-putchar('\n');*/
+	printf("%d", j);
+	-putchar('\n');
 	return (0);
 }
