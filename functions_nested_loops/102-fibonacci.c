@@ -17,10 +17,10 @@ int main(void)
 	k = 3;
 	printf("%d, ", i);
 	printf("%d, ", j);
-	while (k < 49)
+	while (k < 51)
 	{
 		s = i + j;
-		if (k != 48)
+		if (k != 50)
 		{
 			printf("%d, ", s);
 		}
