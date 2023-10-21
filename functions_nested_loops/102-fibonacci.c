@@ -22,11 +22,11 @@ int main(void)
 		s = i + j;
 		if (k != 50)
 		{
-			puts("%d, ", s);
+			printf("%d, ", s);
 		}
 		else
 		{
-			puts("%d", s);
+			printf("%d", s);
 		}
         i = j;
 		j = s;
