@@ -20,16 +20,8 @@ int main(void)
 		s = i + j;
 		if (s % 2 == 0)
 		{
-			/*if (k != 50)
-			{*/
 			k = k + s;
-			/*}
-			else
-			{
-				printf("%lu", s);
-			}*/
 		}
-
 		i = j;
 		j = s;
 	}
