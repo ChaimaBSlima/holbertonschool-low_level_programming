@@ -29,14 +29,16 @@ int main(void)
 			if (k != 98)
 
 			{
-				printf("%lu%lu, ",n,m);
+				printf("%lu%lu, ", n, m);
 			}
 			else
 			{
-				printf("%lu%lu",n,m);
+				printf("%lu%lu", n, m);
 			}
-		}else{
-				printf("%lu, ", s);
+		}
+		else
+		{
+			printf("%lu, ", s);
 		}
 		i = j;
 		j = s;
