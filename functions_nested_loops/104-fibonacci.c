@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define large 10000000000
 /**
  * main - Entry point
  *
@@ -6,27 +7,36 @@
  */
 int main(void)
 {
-	unsigned long long i;
-	unsigned long long j;
-	unsigned long long s;
+	unsigned long i;
+	unsigned long j;
+	unsigned long s;
+	int m, n;
 	int k;
 
 	i = 1;
 	j = 2;
 	s = 0;
 	k = 3;
-	printf("%llu, ", i);
-	printf("%llu, ", j);
+	printf("%lu, ", i);
+	printf("%lu, ", j);
 	while (k < 99)
 	{
 		s = i + j;
-		if (k != 98)
+		if (s > large)
 		{
-			printf("%llu, ", s);
-		}
-		else
-		{
-			printf("%llu", s);
+			m = s % large;
+			n = s / large;
+			if (k != 98)
+
+			{
+				printf("%lu%u, ",n,m);
+			}
+			else
+			{
+				printf("%lu%u",n,m);
+			}
+		}else{
+				printf("%lu, ", s);
 		}
 		i = j;
 		j = s;
