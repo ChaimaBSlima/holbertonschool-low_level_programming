@@ -26,9 +26,8 @@ int main(void)
 		{
 			printf("%d", s);
 		}
-
+        i = j;
 		j = s;
-		i = j;
 		k++;
 	}
 	printf("%d", j);
