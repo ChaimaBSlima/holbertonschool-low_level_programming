@@ -9,12 +9,12 @@ int main(void)
 	unsigned long i;
 	unsigned long j;
 	unsigned long s;
+	unsigned long k;
 
 	i = 1;
 	j = 2;
 	s = 0;
-	printf("%lu, ", i);
-	printf("%lu, ", j);
+	k = i + j;
 	while (s < 4000000)
 	{
 		s = i + j;
@@ -22,16 +22,17 @@ int main(void)
 		{
 			/*if (k != 50)
 			{*/
-				printf("%lu, ", s);
+			k = k + s;
 			/*}
 			else
 			{
 				printf("%lu", s);
 			}*/
 		}
+
 		i = j;
 		j = s;
 	}
-	printf("\n");
+	printf("%lu\n", k);
 	return (0);
 }
