@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define large 10000000000
+#define large 1000000000
 /**
  * main - Entry point
  *
