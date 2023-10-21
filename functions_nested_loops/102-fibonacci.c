@@ -6,27 +6,27 @@
  */
 int main(void)
 {
-	unsigned i;
-	unsigned j;
-	unsigned s;
+	unsigned long i;
+	unsigned long j;
+	unsigned long s;
 	int k;
 
 	i = 1;
 	j = 2;
 	s = 0;
 	k = 3;
-	printf("%u, ", i);
-	printf("%u, ", j);
+	printf("%lu, ", i);
+	printf("%lu, ", j);
 	while (k < 51)
 	{
 		s = i + j;
 		if (k != 50)
 		{
-			printf("%u, ", s);
+			printf("%lu, ", s);
 		}
 		else
 		{
-			printf("%u", s);
+			printf("%lu", s);
 		}
 		i = j;
 		j = s;
