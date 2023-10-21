@@ -14,7 +14,7 @@ int main(void)
 	i = 1;
 	j = 2;
 	s = 0;
-	k = i + j;
+	k = j;
 	while (s < 4000000)
 	{
 		s = i + j;
