@@ -10,7 +10,7 @@ int main(void)
 	unsigned long i;
 	unsigned long j;
 	unsigned long s;
-	int m, n;
+	unsigned long m, n;
 	int k;
 
 	i = 1;
