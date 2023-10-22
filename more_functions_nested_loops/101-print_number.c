@@ -1,7 +1,4 @@
 #include "main.h"
-
-// C program to illustrate 
-// power function 
 #include <math.h> 
 /**
  * print_number -  a function that prints an integer.
