@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 /**
  * main - Entry point
  *
@@ -19,7 +20,7 @@ unsigned long bigPrimeFactor(unsigned long n)
 		}
 	}
 
-	for (i = 3; i * i < n + 1; i = i + 2)
+	for (i = 3; i <= sqrt(n); i = i + 2)
 	{
 		while (n % i == 0)
 		{
