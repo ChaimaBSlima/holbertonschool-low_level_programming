@@ -15,7 +15,6 @@ int reverse(int n)
 		if (n / (i * 10) > 0)
 		{
 			i *= 10;
-			printf("%d\n", i);
 		}
 		else
 		{
