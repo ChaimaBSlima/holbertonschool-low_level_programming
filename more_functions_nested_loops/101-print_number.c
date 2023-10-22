@@ -1,4 +1,8 @@
 #include "main.h"
+
+// C program to illustrate 
+// power function 
+#include <math.h> 
 /**
  * print_number -  a function that prints an integer.
  * @n: The integer
@@ -10,7 +14,7 @@ int reverse(int n)
 	int i = 0;
 	while (n > 0)
 	{
-		rev = rev + ((n % 10) * (10 ** i));
+		rev = rev + ((n % 10) * pow(10,i));
 		n = n / 10;
 		i++;
 	}
