@@ -6,12 +6,14 @@
  */
 void primeFactors(long n)
 {
+    unsigned long i;
+
     while (n % 2 == 0) {
-        printf("%lu ", 2);
+        printf("%d ", 2);
         n = n / 2;
     }
  
-    for (int i = 3; i * i <= n; i = i + 2) {
+    for ( i = 3; i * i <= n; i = i + 2) {
         while (n % i == 0) {
             printf("%lu ", i);
             n = n / i;
