@@ -13,7 +13,7 @@ void primeFactors(long n)
         n = n / 2;
     }
  
-    for ( i = 3; i * i <= n; i = i + 2) {
+    for ( i = 3; i * i < n+1; i = i + 2) {
         while (n % i == 0) {
             printf("%lu ", i);
             n = n / i;
