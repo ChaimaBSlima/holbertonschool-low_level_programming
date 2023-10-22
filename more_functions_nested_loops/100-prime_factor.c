@@ -13,7 +13,7 @@ unsigned long bigPrimeFactor(unsigned long n)
 	while (n % 2 == 0)
 	{
 		mac = 2;
-		while (num % 2 == 0)
+		while (n % 2 == 0)
 		{
 			n = n / 2;
 		}
@@ -29,7 +29,7 @@ unsigned long bigPrimeFactor(unsigned long n)
 	}
 	if (n > 2)
 		mac = i;
-	return (mac)
+	return (mac);
 }
 int main(void)
 {
