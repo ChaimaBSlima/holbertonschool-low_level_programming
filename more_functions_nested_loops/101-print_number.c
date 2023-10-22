@@ -1,17 +1,26 @@
-#include <math.h> 
 #include "main.h"
 /**
  * print_number -  a function that prints an integer.
  * @n: The integer
  * Return: void
  */
+int powr(int a, int b)
+{
+	int i;
+	i = 1;
+	for (i = 1; i < b; i++)
+	{
+		a = a * a;
+	}
+	return a;
+}
 int reverse(int n)
 {
 	int rev = 0;
 	int i = 0;
 	while (n > 0)
 	{
-		rev = rev + ((n % 10) * pow(10,i));
+		rev = rev + ((n % 10) * powr(10, i));
 		n = n / 10;
 		i++;
 	}
