@@ -9,8 +9,8 @@ int powr(int a, int b)
 	int i;
 	int pw;
 	i = 1;
-	pw = a;
-	while (i < b)
+	pw = 1;
+	while (i < b+1)
 	{
 		pw = pw * a;
 		i++;
