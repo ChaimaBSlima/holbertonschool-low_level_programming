@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * main - Entry point
- *
- * Return: 0
+ * bigPrimeFactor - find the max big factor
+ * of a number
+ * @n: the number 
+ * Return: long int value
  */
 unsigned long bigPrimeFactor(unsigned long n)
 {
@@ -11,8 +12,8 @@ unsigned long bigPrimeFactor(unsigned long n)
 	unsigned long mac;
 
 	mac = -1;
-	while (n % 2 == 0)
-	{
+	if (n % 2 == 0)
+	{ 
 		mac = 2;
 		while (n % 2 == 0)
 		{
@@ -29,9 +30,14 @@ unsigned long bigPrimeFactor(unsigned long n)
 		}
 	}
 	if (n > 2)
-		mac = i;
+		mac = n;
 	return (mac);
 }
+/**
+ * main - Entry point
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	unsigned long n;
