@@ -4,7 +4,7 @@
  *
  * Return: 0
  */
-void primeFactors(long n)
+void primeFactors(unsigned long n)
 {
     unsigned long i;
 
