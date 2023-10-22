@@ -25,7 +25,7 @@ int reverse(int n)
 	{
 		rev = rev + ((n % 10) * i);
 		n = n / 10;
-		i++;
+		i= i/10;
 	}
 	return rev;
 }
