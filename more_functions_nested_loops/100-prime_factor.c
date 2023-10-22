@@ -3,7 +3,7 @@
 /**
  * bigPrimeFactor - find the max big factor
  * of a number
- * @n: the number 
+ * @n: the number
  * Return: long int value
  */
 unsigned long bigPrimeFactor(unsigned long n)
@@ -13,7 +13,7 @@ unsigned long bigPrimeFactor(unsigned long n)
 
 	mac = -1;
 	if (n % 2 == 0)
-	{ 
+	{
 		mac = 2;
 		while (n % 2 == 0)
 		{
@@ -46,5 +46,5 @@ int main(void)
 	n = 612852475143;
 	mac = bigPrimeFactor(n);
 	printf("%lu\n", mac);
-	return 0;
+	return (0);
 }
