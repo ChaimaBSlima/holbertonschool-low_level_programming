@@ -7,12 +7,15 @@
 int powr(int a, int b)
 {
 	int i;
+	int pw;
 	i = 1;
-	for (i = 1; i < b; i++)
+	pw = a;
+	while (i < b)
 	{
-		a = a * a;
+		pw = pw * a;
+		i++;
 	}
-	return a;
+	return pw;
 }
 int reverse(int n)
 {
