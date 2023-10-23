@@ -6,7 +6,7 @@
  * @s: the string of address s
  * Return: void
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int j;
 	int i;
