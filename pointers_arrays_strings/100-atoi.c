@@ -11,7 +11,7 @@ int _atoi(char *s)
 {
 	int a;
 	int i;
-	char ch[] = '\0';
+	char ch[] = "";
 
 	i = 0;
 	a = 1;
