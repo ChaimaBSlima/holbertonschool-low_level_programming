@@ -19,7 +19,7 @@ int _atoi(char *s)
 	{
 		if (s[i] != '+' && s[i] != '-')
 		{
-			ch = ch + s[i];
+			strcat(ch,s[i]);
 		}
 		if (s[i] == '-')
 		{
