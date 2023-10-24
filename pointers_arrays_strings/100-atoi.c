@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
- * _strcpy - a function that convert a string to an integer.
+ * _strcpy -a function that convert a string to an integer.
  * @s: the string
  * Return: int value
  */
@@ -10,7 +11,8 @@ int _atoi(char *s)
 {
 	int a;
 	int i;
-	char ch;
+	char ch[strlen(s)] = '\0';
+
 	i = 0;
 	a = 1;
 	while (*(s + i) != '\0')
