@@ -11,21 +11,27 @@ int _atoi(char *s)
 {
 	int a;
 	int i;
-	char ch[] = "";
+	int sum;
 
 	i = 0;
 	a = 1;
+	sum = 0;
 	while (*(s + i) != '\0')
 	{
-		if (s[i] != '+' && s[i] != '-')
-		{
-			strcat(ch,s[i]);
-		}
 		if (s[i] == '-')
 		{
 			a = a * -1;
 		}
 		i++;
 	}
-	return (atoi(ch) * a);
+	while (*s >= '0' && *s <= '9')
+	{
+		sum *= 10;
+		sum += *s - '0';
+		s++;
+	}
+	if (a == -1)
+		return (-sum);
+	else
+		return (sum);
 }
