@@ -1,48 +1,35 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
 /**
- * _strcpy -a function that convert a string to an integer.
- * @s: the string
- * Return: int value
+ * _atoi - convert a string representation of an integer to an integer
+ *
+ * @s: string possibly containing an integer
+ *
+ * Return: first integer in string
  */
-void removeChar(char *str, char c)
-{
-	int i, j;
-	int len = strlen(str);
-	for (i = j = 0; i < len; i++)
-	{
-		if (str[i] != c)
-		{
-			str[j++] = str[i];
-		}
-	}
-	str[j] = '\0';
-}
 int _atoi(char *s)
 {
-	int a;
-	int i;
+	int signs = 1;
+	unsigned int sum = 0;
+	int final = 0;
 
-	i = 0;
-	a = 1;
-	while (*(s + i) != '\0')
+	for (; *s != '\0'; s++)
 	{
-		if (s[i] == '-')
-		{
-			a = a * -1;
-		}
-		i++;
+		if (*s == '-')
+			signs *= -1;
+		else if (*s >= '0' && *s <= '9')
+			break;
 	}
-	i = 0;
-	while (*(s + i) != '\0')
+	while (*s >= '0' && *s <= '9')
 	{
-		if (s[i] == '-' || s[i] == '+')
-		{
-			removeChar(s, s[i]);
-		}
-		i++;
+		sum *= 10;
+		sum += *s - '0';
+		s++;
 	}
-	return (atoi(s) * a);
+
+	if (signs == -1)
+		final = -sum;
+	else
+		final = sum;
+
+	return (final);
 }
