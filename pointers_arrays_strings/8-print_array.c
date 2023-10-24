@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * print_array -  a function that prints n elements
- * of an array of integers, 
+ * of an array of integers,
  * followed by a new line.
  * @a: the array name
  * @n: size of the array
@@ -25,4 +25,5 @@ void print_array(int *a, int n)
 			printf("%d", a[i]);
 		}
 		i++;
+	}
 }
