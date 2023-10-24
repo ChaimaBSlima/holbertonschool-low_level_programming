@@ -4,9 +4,9 @@
 /**
  * _strcpy - a function that convert a string to an integer.
  * @s: the string
- * Return: int value 
+ * Return: int value
  */
 int _atoi(char *s)
 {
-	return(atoi(s));
+	return (atoi(s));
 }
