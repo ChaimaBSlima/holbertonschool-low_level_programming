@@ -1,26 +1,24 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *  print_rev - prints a string,
- *  in reverse, followed by a new line.
+ * string_toupper -a function that changes all lowercase
+ * letters of a string to uppercase.
  * @s: the string of address s
- * Return: void
+ * Return: string value
  */
 char *string_toupper(char *s)
 {
-	char Upp[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	 char Low[26] = "abcdefghijklmnopqrstuvwxyz";
-	  int i;
-	int j;
+	int i;
+
 	i = 0;
-	while (*(s + i) != '\0')
+
+	while (s[i] != '\0')
 	{
-		j = 0;
-		while (Low[j] != '\0' || Low[j] != s[i])
+		if (s[i] >= 97 && s[i] <= 122)
 		{
-			j++;
+			s[i] = s[i] - 32;
 		}
-		s[i] = Upp[j];
+		i++;
 	}
 	return (s);
 }
