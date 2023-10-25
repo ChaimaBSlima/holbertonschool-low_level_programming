@@ -16,7 +16,7 @@ char *string_toupper(char *s)
 	while (*(s + i) != '\0')
 	{
 		j = 0;
-		while (Low[j] != '\0' || Low(j) != s[i])
+		while (Low[j] != '\0' || Low[j] != s[i])
 		{
 			j++;
 		}
