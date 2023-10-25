@@ -8,7 +8,9 @@
  */
 char *string_toupper(char *s)
 {
-	char Upp[25] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" char Low[25] = "abcdefghijklmnopqrstuvwxyz" int i;
+	char Upp[25] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	 char Low[25] = "abcdefghijklmnopqrstuvwxyz";
+	  int i;
 	int j;
 	i = 0;
 	while (*(s + i) != '\0')
