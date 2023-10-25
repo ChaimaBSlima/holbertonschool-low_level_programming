@@ -6,17 +6,21 @@
  * @s: the string of address s
  * Return: string value
  */
-char *string_toupper(char *s)
+char *cap_string(char *s)
 {
 	int i;
 
-	i = 0;
-
+	
+    if (s[0] >= 97 && s[0] <= 122 )
+		{
+			s[0] = s[0] - 32;
+		}
+	i = 1;
 	while (s[i] != '\0')
 	{
-		if (s[i] >= 97 && s[i] <= 122)
+		if (s[i] >= 97 && s[i] <= 122 && s[i]== " ")
 		{
-			s[i] = s[i] - 32;
+			s[i+1] = s[i] - 32;
 		}
 		i++;
 	}
