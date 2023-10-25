@@ -2,9 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _strcpy - a function that copies the string pointed
- * to by src, including the terminating null byte (\0),
- * to the buffer pointed to by dest.
+ * *_strcat - a function that concatenates two strings.
  * @dest: the string
  * @src: the string
  * Return: string value
@@ -12,6 +10,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int i = 0, j = 0;
+
 	while (dest[i] != '\0')
 	{
 		i++;
@@ -22,5 +21,5 @@ char *_strcat(char *dest, char *src)
 		j++;
 		i++;
 	}
-	return(dest);
+	return (dest);
 }
