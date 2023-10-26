@@ -6,7 +6,7 @@
  * @s: the string of address s
  * Return: string value
  */
-char *cap_string(char *s)
+char *leet(char *s)
 {
 	int i;
 
