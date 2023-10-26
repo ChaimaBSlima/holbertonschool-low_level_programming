@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * cap_string - a function that capitalizes
- * all words of a string.
+ * leet -a function that encodes a string into 1337.
  * @s: the string of address s
  * Return: string value
  */
