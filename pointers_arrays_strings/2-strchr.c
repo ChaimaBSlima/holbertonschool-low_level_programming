@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _memcpy - a function that copies memory area.
- * @dest: the string
- * @src : the source of the string
- * @n: the size of matrix
+ * _strchr - a function that locates a character in a string.
+ * @s: the string
+ * @c: the character of the string
  * Return: string value
  */
 char *_strchr(char *s, char c)
@@ -15,7 +14,7 @@ char *_strchr(char *s, char c)
 	i = 0;
 	while (*(s + i) != '\0')
 	{
-		if (*(s + i) != c)
+		if (*(s + i) == c)
 		{
 			return (s + i);
 		}
