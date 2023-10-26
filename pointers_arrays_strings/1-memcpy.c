@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _memset - a function that fills
- * memory with a constant byte.
- * @s: the string
- * @b : the string to add
+ * _memcpy - a function that copies memory area.
+ * @dest: the string
+ * @src : the source of the string
  * @n: the size of matrix
  * Return: string value
  */
