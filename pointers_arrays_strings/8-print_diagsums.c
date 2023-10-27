@@ -10,19 +10,20 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j;
+	int i, j, sum;
 
 	i = 0;
 	j = 0;
-	while (i < size)
+	sum = 0;
+	for (i = 0; i < n; i++)
 	{
-		j = 0;
-		while (j < i)
+		for (j = 0; j < n; j++)
 		{
-			_putchar(a[i][j]);
-			j++;
+			if (i == j || i + j == n - 1)
+			{
+				sum = sum + a[i][j];
+			}
 		}
-		_putchar('\n');
-		i++;
 	}
+	return (sum);
 }
