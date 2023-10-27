@@ -12,12 +12,12 @@ void print_diagsums(int *a, int size)
 {
 	int i, j;
 
-	i = 0; 
+	i = 0;
 	j = 0;
 	while (i < size)
 	{
 		j = 0;
-		while (j <size)
+		while (j < i)
 		{
 			_putchar(a[i][j]);
 			j++;
