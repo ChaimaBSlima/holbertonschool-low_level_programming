@@ -10,20 +10,18 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j, sum;
+	int n1 = 0;
+	int n2 = 0;
+	int i = 0;
 
-	i = 0;
-	j = 0;
-	sum = 0;
-	for (i = 0; i < size; i++)
+	while (i < size)
 	{
-		for (j = 0; j < size; j++)
-		{
-			if (i == j || i + j == size - 1)
-			{
-				sum = sum + a[i][j];
-			}
-		}
+		n1 += a[i * (size + 1)];
+		n2 += a[(i + 1) * (size - 1)];
+		i++;
 	}
-	return (sum);
+	printf("%d, ", n1);
+	printf("%d", n2);
+	printf("\n");
+
 }
