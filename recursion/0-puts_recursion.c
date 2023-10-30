@@ -12,11 +12,6 @@ void _puts_recursion(char *s)
 		printf("%c", '\n');
 		return;
 	}
-	else if (*(s + 1) == '\0')
-	{
-		printf("%c", *s);
-		printf("%c", '\n');
-	}
 	else
 	{
 		printf("%c", *s);
