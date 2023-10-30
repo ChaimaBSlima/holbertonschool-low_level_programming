@@ -9,7 +9,7 @@ int prime(int x, int y)
 {
 	if (x == y)
 		return (1);
-	if ((x % y) != 1)
+	if (!(x % y))
 		return (0);
 	return (prime(x, y + 1));
 }
