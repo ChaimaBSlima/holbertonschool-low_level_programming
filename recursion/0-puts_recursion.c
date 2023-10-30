@@ -13,6 +13,7 @@ void _puts_recursion(char *s)
 	}
 	else if (*(s + 1) == '\0')
 	{
+		printf("%c", *s);
 		printf("%c", '\n');
 	}
 	else
