@@ -13,10 +13,10 @@ int checknumbers(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		j= 0;
+		j = 0;
 		while (argv[i][j] != '\0')
 		{
-			if ((argv[i][j]  < 47) || (argv[i][j]  > 58))
+			if ((argv[i][j] < 47) || (argv[i][j] > 58))
 			{
 				return (0);
 			}
