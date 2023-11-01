@@ -7,16 +7,12 @@ int checknumbers(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		if ((*argv[i] > 47) && (*argv[i] < 58))
-		{
-			return (1);
-		}
-		else
+		if ((*argv[i] < 47) || (*argv[i] > 58))
 		{
 			return (0);
-			break;
 		}
 	}
+	return (1);
 }
 /**
  * main - Entry point
@@ -32,6 +28,7 @@ int main(int argc, char **argv)
 	if (checknumbers(argc, argv) == 0)
 	{
 		printf("Error\n");
+		return (1);
 	}
 	else
 	{
