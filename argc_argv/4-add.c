@@ -9,16 +9,18 @@
 int checknumbers(int argc, char **argv)
 {
 	int i;
+	int j;
 
 	for (i = 1; i < argc; i++)
 	{
-		while (*argv[i])
+		j= 0;
+		while (argv[i][j] != '\0')
 		{
-			if ((*argv[i] < 47) || (*argv[i] > 58))
+			if ((argv[i][j]  < 47) || (argv[i][j]  > 58))
 			{
 				return (0);
 			}
-			argv[i]++;
+			j++;
 		}
 	}
 	return (1);
