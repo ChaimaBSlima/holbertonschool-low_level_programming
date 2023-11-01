@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ *checknumbers - check for numbers
+ * @argc : size of the array
+ * @argv : elements of the array
+ * Return: 0 or 1
+ */
 int checknumbers(int argc, char **argv)
 {
 	int i;
@@ -18,7 +23,7 @@ int checknumbers(int argc, char **argv)
  * main - Entry point
  * @argc : size of the array
  * @argv : elements of the array
- * Return: 0
+ * Return: 0 or 1
  */
 int main(int argc, char **argv)
 {
