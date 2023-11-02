@@ -6,7 +6,7 @@ As a holberton school student I built this directory named more_functions_nested
 
 | Files |  Description                |
 | :-------- |  :------------------------- |
-| `main.h` | it's a header file that contain the prototypes of all your functions and the prototype of the function _putchar.|
+| `main.h` | it's a header file that contain the prototypes of all my functions and the prototype of the function _putchar.|
 | `_putchar.c`| contain the function _putchar created by holberton. |
 |  `0-isupper.c` |contain a function that checks for uppercase character. |
 | `1-isdigit.c` | contain  a function that checks for a digit (0 through 9). |
