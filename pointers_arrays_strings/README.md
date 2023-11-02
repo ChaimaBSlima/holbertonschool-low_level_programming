@@ -6,7 +6,7 @@ As a holberton school student I built this directory named pointers_arrays_strin
 
 | Files |  Description                |
 | :-------- |  :------------------------- |
-| `main.h` | it's a header file that contain the prototypes of all your functions and the prototype of the function _putchar.|
+| `main.h` | it's a header file that contain the prototypes of all the functions and the prototype of the function _putchar.|
 | `_putchar.c`| contain the function _putchar created by holberton. |
 
 ## Files of Project 1
@@ -50,7 +50,7 @@ As a holberton school student I built this directory named pointers_arrays_strin
 
 ## Authors
 
-- [@ChaimaBSlima](https://www.github.com/octokatherine)
+- [@ChaimaBSlima](https://github.com/ChaimaBSlima)
 
 
 ## 🚀 About Me
