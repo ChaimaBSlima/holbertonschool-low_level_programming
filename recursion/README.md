@@ -7,7 +7,7 @@ As a holberton school student I built this directory named recursion to exercise
 
 | Files |  Description                |
 | :-------- |  :------------------------- |
-| `main.h` | it's a header file that contain the prototypes of all your functions and the prototype of the function _putchar.|
+| `main.h` | it's a header file that contain the prototypes of all the functions and the prototype of the function _putchar.|
 | `_putchar.c`| contain the function _putchar created by holberton. |
 |  `0-puts_recursion.c` |contain a function that prints a string, followed by a new line. |
 | `1-print_rev_recursion.c` | contain a function that prints a string in reverse. |
