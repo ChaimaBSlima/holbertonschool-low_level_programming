@@ -1,4 +1,4 @@
-# C - More functions, more nested loops
+# C - Pointers, arrays and strings
 
 As a holberton school student I built this directory named pointers_arrays_strings to  exercise C pointers arrays and strings
 
