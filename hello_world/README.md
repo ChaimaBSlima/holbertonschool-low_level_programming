@@ -17,7 +17,7 @@ As a holberton school student I built this directory named hello_world to start 
 
 ## Authors
 
-- [@ChaimaBSlima](https://www.github.com/octokatherine)
+- [@ChaimaBSlima](https://github.com/ChaimaBSlima)
 
 
 ## 🚀 About Me
