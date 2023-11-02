@@ -24,7 +24,7 @@ As a holberton school student I built this directory named more_functions_nested
 
 ## Authors
 
-- [@ChaimaBSlima](https://www.github.com/octokatherine)
+- [@ChaimaBSlima](https://github.com/ChaimaBSlima)
 
 
 ## 🚀 About Me
