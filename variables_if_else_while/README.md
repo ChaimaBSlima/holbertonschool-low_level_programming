@@ -20,7 +20,7 @@ As a holberton school student I built this directory named variables_if_else_whi
 
 ## Authors
 
-- [@ChaimaBSlima](https://www.github.com/octokatherine)
+- [@ChaimaBSlima](https://github.com/ChaimaBSlima)
 
 
 ## 🚀 About Me
