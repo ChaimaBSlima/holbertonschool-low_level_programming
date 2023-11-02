@@ -23,7 +23,7 @@ As a holberton school student I built this directory named functions_nested_loop
 
 ## Authors
 
-- [@ChaimaBSlima](https://www.github.com/octokatherine)
+- [@ChaimaBSlima](https://github.com/ChaimaBSlima)
 
 
 ## 🚀 About Me
