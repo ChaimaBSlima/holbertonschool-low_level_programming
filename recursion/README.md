@@ -19,7 +19,7 @@ As a holberton school student I built this directory named recursion to exercise
 
 ## Authors
 
-- [@ChaimaBSlima](https://www.github.com/octokatherine)
+- [@ChaimaBSlima](https://github.com/ChaimaBSlima)
 
 
 ## 🚀 About Me
