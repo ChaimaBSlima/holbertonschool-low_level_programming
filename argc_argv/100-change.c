@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
+ * main - Entry point 
  * @argc : size of the array
  * @argv : elements of the array
  * Return: 0 or 1
