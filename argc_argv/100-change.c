@@ -48,19 +48,20 @@ int main(int argc, char **argv)
 {
 
 	int sum = 0;
-	int cent = atoi(argv[1]);
+	int cent ;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else if (cent < 0)
+	else if (atoi(argv[1]) < 0)
 	{
 		sum = 0;
 	}
 	else
 	{
+		cent = atoi(argv[1]);
 		sum = calcul(sum, cent);
 	}
 	printf("%d\n", sum);
