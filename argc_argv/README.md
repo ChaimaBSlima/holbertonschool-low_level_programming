@@ -10,6 +10,7 @@ As a holberton school student I built this directory named argc_argv to exercise
 | `2-args.c` | contain  a program that prints all arguments it receives. |
 |`3-mul.c` |contain a program that multiplies two numbers.|
 | `4-add.c` | contain a program that adds positive numbers.|
+| `100-change.c` | contain a program that prints the minimum number of coins to make change for an amount of money.|
 
 ## Authors
 
