@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 {
 
 	int sum = 0;
-	int cent ;
+	int cent;
 
 	if (argc != 2)
 	{
@@ -67,3 +67,4 @@ int main(int argc, char **argv)
 	printf("%d\n", sum);
 	return (0);
 }
+
