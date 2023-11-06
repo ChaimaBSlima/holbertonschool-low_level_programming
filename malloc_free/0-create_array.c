@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * create_array - a function that creates an array of chars,
+ * and initializes it with a specific char.
+ * @size: The size of the array
+ * @c: the element of the array
+ * Return: the array.
  */
 char *create_array(unsigned int size, char c)
 {
