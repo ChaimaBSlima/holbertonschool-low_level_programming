@@ -39,6 +39,6 @@ char *str_concat(char *s1, char *s2)
 		i++;
 	}
 
-	ch[i] = '1';
+	ch[i] = '\0';
 	return (ch);
 }
