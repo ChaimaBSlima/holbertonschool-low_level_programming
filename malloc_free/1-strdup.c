@@ -24,7 +24,11 @@ char *_strdup(char *str)
 		{
 			for (i = 0; str[i] != '\0'; i++)
 				ch[i] = str[i];
+		}else
+		{
+			return (NULL);
 		}
+		
 	}
 	ch[i] = '\0';
 	return (ch);
