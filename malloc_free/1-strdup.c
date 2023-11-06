@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * create_array - a function that creates an array of chars,
- * and initializes it with a specific char.
- * @size: The size of the array
- * @c: the element of the array
- * Return: the array.
+ *_strdup - a function that returns a pointer to a newly allocated space in memory,
+ * which contains a copy of the string given as a parameter.
+ * @str: The string
+ * Return: a string.
  */
 char *_strdup(char *str)
 {
@@ -12,12 +11,12 @@ char *_strdup(char *str)
 	unsigned int i;
 	int n;
 
-	n = strlen(str);
-	ch = (char *)malloc(n + 1 * sizeof(char));
 	if (str == NULL)
 	{
 		return (NULL);
 	}
+	n = strlen(str);
+	ch = (char *)malloc(n + 1 * sizeof(char));
 	if (ch != NULL)
 	{
 		for (i = 0; str[i] != '\0'; i++)
