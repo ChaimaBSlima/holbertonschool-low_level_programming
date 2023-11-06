@@ -25,16 +25,15 @@ char *str_concat(char *s1, char *s2)
 	{
 		m = strlen(s2);
 	}
-
 	ch = (char *)malloc((n + m + 1) * sizeof(char));
 	if (ch == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; s1[i] != '\0'; i++)
+	for (i = 0; i < n; i++)
 		ch[i] = s1[i];
 
-	for (j = 0; s2[j] != '\0'; j++)
+	for (j = 0; j < m; j++)
 	{
 		ch[i] = s2[j];
 		i++;
