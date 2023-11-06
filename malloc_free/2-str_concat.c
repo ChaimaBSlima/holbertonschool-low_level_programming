@@ -26,10 +26,10 @@ char *str_concat(char *s1, char *s2)
 		m = strlen(s2);
 	}
 	ch = (char *)malloc((n + m + 1) * sizeof(char));
-	if (ch == NULL)
+	/*if (ch == NULL)
 	{
 		return (NULL);
-	}
+	}*/
 	for (i = 0; i < n; i++)
 		ch[i] = s1[i];
 
