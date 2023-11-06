@@ -20,27 +20,20 @@ char *str_concat(char *s1, char *s2)
 	n = strlen(s1);
 	m = strlen(s2);
 	ch = (char *)malloc((n + m + 1) * sizeof(char));
-	if (ch != NULL)
-	{
-		i = 0;
-		if (s1 != NULL)
-		{
-			for (i = 0; s1[i] != '\0'; i++)
-				ch[i] = s1[i];
-		}
-		if (s2 != NULL)
-		{
-			for (j = 0; s2[j] != '\0'; j++)
-			{
-				ch[i] = s2[j];
-				i++;
-			}
-		}
-	}
-	else
+	if (ch == NULL)
 	{
 		return (NULL);
 	}
-	ch[i] = '\0';
+
+	for (i = 0; s1[i] != '\0'; i++)
+		ch[i] = s1[i];
+
+	for (j = 0; s2[j] != '\0'; j++)
+	{
+		ch[i] = s2[j];
+		i++;
+	}
+
+	ch[n + m + 1] = '\0';
 	return (ch);
 }
