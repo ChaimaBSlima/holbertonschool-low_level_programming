@@ -13,10 +13,6 @@ char *str_concat(char *s1, char *s2)
 	unsigned int n = 0;
 	unsigned int m = 0;
 
-	if (s1 == NULL && s2 == NULL)
-	{
-		return (NULL);
-	}
 	if (s1 != NULL)
 	{
 		n = strlen(s1);
