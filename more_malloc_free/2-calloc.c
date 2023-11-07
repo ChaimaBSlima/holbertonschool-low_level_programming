@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * string_nconcat -  a function that concatenates two strings.
- * @s1: The first string
- * @s2: The second string
- * @n : limits of s2
- * Return: a string.
+ * _calloc - a function that allocates memory for an array, using malloc.
+ * @nmemb: array length
+ * @size: size of each element
+ * Return: a pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *a;
-	char *array;
+	unsigned int i;
 
 	if (size == 0 || nmemb == 0)
 	{
@@ -21,10 +20,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	array = a;
-	while (nmemb--)
+	i = 0;
+	while (i < nmemb * size)
 	{
-		*array++ = 0;
+		ptr[i] = 0;
+		i++;
 	}
 	return (a);
 }
