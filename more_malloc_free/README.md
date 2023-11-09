@@ -1,6 +1,6 @@
 # C - More malloc, free
 
-As a holberton school student I built this directory named malloc_free to more exercise C malloc free.
+As a holberton school student I built this directory named more_malloc_free to more exercise C malloc free.
 
 ## Files
 | Files |  Description                |
