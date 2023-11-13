@@ -1,5 +1,5 @@
-#ifndef OBJECT_LIKE_MARCO
-#define OBJECT_LIKE_MARCO
+#ifndef __STRUCT__
+#define __STRUCT__
 
 /**
  * struct dog - frist struct
@@ -16,4 +16,4 @@ struct dog
 	char *owner;
 };
 
-#endif /*OBJECT_LIKE_MARCO*/
+#endif /*__STRUCT__*/
