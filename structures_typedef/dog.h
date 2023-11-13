@@ -2,6 +2,7 @@
 #define __STRUCT__
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 /**
  * struct dog - frist struct
  * @name: First member
