@@ -1,6 +1,7 @@
 #ifndef __STRUCT__
 #define __STRUCT__
-
+#include <stdio.h>
+#include <string.h>
 /**
  * struct dog - frist struct
  * @name: First member
@@ -17,5 +18,6 @@ struct dog
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
 
 #endif /*__STRUCT__*/
