@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 	}
 	i = atoi(argv[1]);
 	j = atoi(argv[3]);
-	
+
 	op_func = get_op_func(argv[2]);
 	if (!op_func)
 	{
