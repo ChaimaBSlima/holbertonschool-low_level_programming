@@ -1,6 +1,6 @@
 # C - Function pointers
 
-As a holberton school student I built this directory named function_pointers to exercice C functions and pointers.
+As a holberton school student I built this directory named function_pointers to exercice C function pointers.
 
 ## Files
  All codes use recursion
