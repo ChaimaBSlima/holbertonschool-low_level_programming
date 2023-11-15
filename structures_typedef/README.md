@@ -3,8 +3,6 @@
 As a holberton school student I built this directory named structures_typedef to learn C structures and how to define types.
 
 ## Files
- All codes use recursion
-
 | Files |  Description                |
 | :-------- |  :------------------------- |
 | `dog.h` | it's a header file that contain the prototypes of all the functions.|
