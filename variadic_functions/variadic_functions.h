@@ -8,8 +8,8 @@
 
 typedef struct types
 {
-    char *types;
-    void (*function)(char *, va_list);
+    char type;
+    void (*function)( va_list);
 } types_t;
 
 int _putchar(char c);
