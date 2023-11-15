@@ -3,7 +3,6 @@
 As a holberton school student I built this directory named function_pointers to exercice C functions pointers.
 
 ## Files
- All codes use recursion
 
 | Files |  Description                |
 | :-------- |  :------------------------- |
