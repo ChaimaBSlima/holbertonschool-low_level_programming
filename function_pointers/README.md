@@ -1,6 +1,6 @@
-# C - Structures, typedef
+# C - Function pointers
 
-As a holberton school student I built this directory named structures_typedef to learn C structures and how to define types.
+As a holberton school student I built this directory named function_pointers to exercice C functions and pointers.
 
 ## Files
  All codes use recursion
