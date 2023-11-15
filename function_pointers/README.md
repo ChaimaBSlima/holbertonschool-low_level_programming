@@ -18,7 +18,7 @@ As a holberton school student I built this directory named structures_typedef to
 | :-------- |  :------------------------- |
 | `3-calc.h` | it's a header file that contain the prototypes of all the functions.|
 | `3-main.c` |contain the main program that make the operations. |
-| ` 3-op_functions.c` | contain the 5  functions that perform the 5 operations (addition,subtraction,  multiplication,  division,  modulo) |
+| ` 3-op_functions.c` | contain the 5  functions that perform the 5 operations (addition, subtraction,  multiplication,  division,  modulo) |
 | `3-get_op_func.c` | contain contain the function that selects the correct function to perform the operation asked by the user. |
 
 
