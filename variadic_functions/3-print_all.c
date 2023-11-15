@@ -41,9 +41,8 @@ void convert_string(va_list argm)
 
 	ch = va_arg(argm, char *);
 	if (ch == NULL)
-		printf("(nil)");
-	else
-		printf("%s", ch);
+		ch = "(nil)";
+	printf("%s", ch);
 }
 /**
  * print_all - a function that prints anything.
