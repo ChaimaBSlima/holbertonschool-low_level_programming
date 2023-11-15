@@ -6,13 +6,13 @@
  * @n: the number of argument
  * @... : the numbers to print
  *
- * Return: int value
+ * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	int i = n;
 	va_list argm;
-
+v
 	if (separator == NULL)
 	{
 		separator = "";
