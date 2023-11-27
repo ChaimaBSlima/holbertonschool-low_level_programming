@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_list -   a function that returns the number 
+ * list_len -   a function that returns the number
  * of elements in a linked list_t list.
  * @h: pointer to the first node
  * Return: the number of elements
