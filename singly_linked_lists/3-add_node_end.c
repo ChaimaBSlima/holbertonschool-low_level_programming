@@ -6,7 +6,7 @@
  * @str: string pointer
  * Return: adress of the new node
  */
-list_t *add_node_end(list_t **head, const char *str);
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node = malloc(sizeof(list_t));
 	list_t *check_head = *head;
@@ -30,7 +30,7 @@ list_t *add_node_end(list_t **head, const char *str);
 		{
 			node = node->next;
 		}
-		node->new+xt = new_node;
+		node->next = new_node;
 	}else {
 		*head= new_node;
 	}
