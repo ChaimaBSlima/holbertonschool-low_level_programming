@@ -25,14 +25,17 @@ list_t *add_node_end(list_t **head, const char *str)
 		}
 		new_node->len = strlen(new_node->str);
 	}
-	if (check_head){
+	if (check_head)
+	{
 		while (check_head->next != NULL)
 		{
 			check_head = check_head->next;
 		}
 		check_head->next = new_node;
-	}else {
-		*head= new_node;
+	}
+	else
+	{
+		*head = new_node;
 	}
 	return (new_node);
 }
