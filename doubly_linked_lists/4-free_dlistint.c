@@ -11,8 +11,8 @@ void free_dlistint(dlistint_t *head)
 
 	while (head)
 	{
+		chaima = head;
 		chaima = head->next;
 		free(chaima);
-		chaima = head;
 	}
 }
