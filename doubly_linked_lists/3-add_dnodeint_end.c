@@ -5,7 +5,7 @@
  * @head: pointer
  * @n: the value of the node
  *
- * Return: number of nodes
+ * Return:  new element address
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
