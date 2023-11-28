@@ -12,7 +12,7 @@ void free_dlistint(dlistint_t *head)
 	while (head != NULL)
 	{
 		chaima = head;
-		chaima = head->next;
+		head = head->next;
 		free(chaima);
 	}
 }
