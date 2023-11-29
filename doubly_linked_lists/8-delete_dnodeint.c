@@ -1,37 +1,38 @@
 #include "lists.h"
 /**
- * insert_dnodeint_at_index -  a function that inserts a new
- *  node at a given position.
- * @h: pointer
- * @idx: giving position
- * @n: value of the new node named chaima  :)
+ * delete_dnodeint_at_index -  a function that deletes the node at
+ *  index index of a dlistint_t linked list.
+ * @head: pointer
+ * @index: giving position
  *
- * Return: adress of chaima ;-)
+ * Return: 1 if succeeded or -1 if failed
  */
-dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	dlistint_t *chaima, *current_node;
+	dlistint_t *chaima = *head;
 
-	if (h == NULL)
-		return (NULL);
-	if (idx == 0)
-		return (add_dnodeint(h, n));
-	current_node = *h;
-	while (idx > 1 && current_node && current_node->next)
+	if (!head)
+		return (-1);
+	if (head)
 	{
-		current_node = current_node->next;
-		idx--;
+		while (index && chaima)
+		{
+			chaima = chaima->next;
+			index--;
+		}
+		if (index)
+			return (-1);
+		if (!index && chaima)
+		{
+			if (chaima->next)
+				chaima->next->prev = chaima->prev;
+			if (chaima->prev)
+				chaima->prev->next = chaima->next;
+			else
+				*head = chaima->next;
+			free(chaima);
+			return (1);
+		}
 	}
-	chaima = malloc(sizeof(dlistint_t));
-	if (chaima == NULL)
-		return (NULL);
-	if (idx > 1 || current_node == NULL)
-		return (NULL);
-	chaima->n = n;
-	if (current_node->next != NULL)
-		current_node->next->prev = chaima;
-	chaima->prev = current_node;
-	chaima->next = current_node->next;
-	current_node->next = chaima;
-	return (chaima);
+	return (-1);
 }
