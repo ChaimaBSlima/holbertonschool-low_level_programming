@@ -11,7 +11,7 @@ int sum_dlistint(dlistint_t *head)
 	int sum = 0;
 	dlistint_t *chaima = head;
 
-	while (cursor)
+	while (chaima)
 	{
 		sum += chaima->n;
 		chaima = chaima->next;
