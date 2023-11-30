@@ -14,14 +14,14 @@ void print_binary(unsigned long int n)
 	int b;
 	unsigned int p;
 
-	for (i = 0; i < 32; i++)
+	for (i = 0; i < 64; i++)
 	{
-		p = ((a << (31 - i)) & n);
-		if (p >> (31 - i))
+		p = ((a << (63 - i)) & n);
+		if (p >> (63 - i))
 			flag = 1;
 		if (flag)
 		{
-			b = p >> (31 - i);
+			b = p >> (63 - i);
 			putchar(b + 48);
 			len++;
 		}
