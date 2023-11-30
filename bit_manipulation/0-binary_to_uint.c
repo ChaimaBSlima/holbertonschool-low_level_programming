@@ -12,7 +12,6 @@ unsigned int binary_to_uint(const char *b)
 	int i = 0;
 	int len;
 
-	len = strlen(b);
 	if (b == NULL)
 		return (0);
 
@@ -22,6 +21,7 @@ unsigned int binary_to_uint(const char *b)
 		val += b[i] - '0';
 		i++;
 	}
+	len = strlen(b);
 	if (b[i] != '0' && b[i] != '1' && i != len)
 	{
 		return (0);
