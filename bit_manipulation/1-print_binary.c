@@ -21,7 +21,7 @@ void print_binary(unsigned long int n)
 			flag = 1;
 		if (flag)
 		{
-			b = p >> (63 - i);
+			b = p >> (31 - i);
 			putchar(b + 48);
 			len++;
 		}
