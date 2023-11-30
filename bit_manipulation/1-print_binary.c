@@ -8,7 +8,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int size;
+	signed long int size;
 	char c;
 	int flag;
 
