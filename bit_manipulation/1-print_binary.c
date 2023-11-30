@@ -14,7 +14,7 @@ void print_binary(unsigned long int n)
 	int b;
 	unsigned int p;
 
-	for (i = 0; i < 64; i++)
+	for (i = 0; i < 32; i++)
 	{
 		p = ((a << (31 - i)) & n);
 		if (p >> (31 - i))
