@@ -8,26 +8,41 @@
  */
 void print_binary(unsigned long int n)
 {
-	int flag = 0;
-	int len = 0;
-	int i, a = 1;
-	int b;
-	unsigned int p;
+	unsigned long int size;
+	char c;
+	int flag;
 
-	for (i = 0; i < 32; i++)
+	size = sizeof(n) * 8 - 1;
+
+	if (n == 0)
 	{
-		p = ((a << (31 - i)) & n);
-		if (p >> (31 - i))
-			flag = 1;
-		if (flag)
-		{
-			b = p >> (31 - i);
-			putchar(b + 48);
-			len++;
-		}
+		printf("0");
+		return;
 	}
-	if (len == 0)
+
+	if (n == 1)
 	{
-		putchar('0');
+		printf("1");
+		return;
+	}
+
+	flag = 0;
+
+	while (size >= 0)
+	{
+		c = (n >> size) & 1;
+
+		if (flag == 1)
+			putchar(c + '0');
+		else
+		{
+			if (c == 1)
+			{
+				putchar(c + '0');
+				flag = 1;
+			}
+		}
+
+		size -= 1;
 	}
 }
