@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * print_binary - a function that prints
- *  the binary representation of a number.
+ * get_bit -a function that returns
+ * the value of a bit at a given index.
  * @n: the number
+ * @index: the given index
  *
- * Return: void
+ * Return: int value
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
@@ -27,7 +28,14 @@ int get_bit(unsigned long int n, unsigned int index)
 		array[i] = num % 2;
 		num /= 2;
 	}
-	the_number = array[index];
+	if (index > bytes)
+	{
+		the_number = -1;
+	}
+	else
+	{
+		the_number = array[index];
+	}
 	free(array);
 	return (the_number);
 }
