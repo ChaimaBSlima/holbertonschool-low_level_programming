@@ -11,7 +11,7 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	int i;
 	int *array;
-	int bytes = 0;
+	unsigned int bytes = 0;
 	int the_number;
 	unsigned int el3adad = n;
 	unsigned int num = el3adad;
