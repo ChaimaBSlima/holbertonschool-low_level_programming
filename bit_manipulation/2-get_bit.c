@@ -9,7 +9,7 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int i;
+	unsigned int i;
 	int *array;
 	unsigned int bytes = 0;
 	int the_number;
