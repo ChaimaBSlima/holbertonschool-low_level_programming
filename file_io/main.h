@@ -1,5 +1,5 @@
-#ifndef __FILE_O/I__
-#define __FILE_O/I__
+#ifndef __FILE_O_I__
+#define __FILE_O_I__
 
 #include <stdio.h>
 #include <string.h>
@@ -18,4 +18,4 @@ int create_file(const char *filename, char *text_content);
 int create_file(const char *filename, char *text_content);
 
 
-#endif /*__FILE_O/I__*/
+#endif /*__FILE_O_I__*/
