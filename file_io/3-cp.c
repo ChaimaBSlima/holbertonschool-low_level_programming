@@ -13,10 +13,7 @@ int main(int argc, char **argv)
 	char buffer[1024];
 
 	if (argc != 3)
-	{
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-		exit(97);
-	}
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
 	fromFile = open(argv[1], O_RDONLY);
 	if (fromFile == -1)
 	{
@@ -34,7 +31,10 @@ int main(int argc, char **argv)
 	{
 		READ = read(fromFile, buffer, 1024);
 		if (READ == -1)
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
+		{
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+			exit(98);
+		}
 		if (0 < READ)
 		{
 			WRITE = write(toFile, buffer, READ);
