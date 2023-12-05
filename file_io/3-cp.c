@@ -34,8 +34,7 @@ int main(int argc, char **argv)
 	{
 		READ = read(fromFile, buffer, 1024);
 		if (READ == -1)
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
-		exit(98);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
 		if (0 < READ)
 		{
 			WRITE = write(fromFile, buffer, READ);
