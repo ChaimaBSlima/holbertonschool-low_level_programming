@@ -9,7 +9,7 @@
 int main(int argc, char **argv)
 {
 	int fromFile, toFile, READ, WRITE;
-	mode_t MODE = S_IRUSR | S_IWUSR | S_IWGRP | S_IRGRP | S_IROTH;
+	mode_t MODE = S_IRUSR | S_IWUSR ;
 	char buffer[1024];
 
 	if (argc != 3)
@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
 		if (0 < READ)
 		{
-			WRITE = write(fromFile, buffer, WRITE);
+			WRITE = write(toFile, buffer, WRITE);
 			if (WRITE != READ || -1 == WRITE)
 				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 		}
