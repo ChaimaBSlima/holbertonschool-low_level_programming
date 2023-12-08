@@ -1,6 +1,6 @@
 # C - Doubly linked lists
 
-As a holberton school student I built this directory named sdoubly_linked_lists to exercise C doubly linked lists.
+As a holberton school student I built this directory named doubly_linked_lists to exercise C doubly linked lists.
 
 ## Files
 
